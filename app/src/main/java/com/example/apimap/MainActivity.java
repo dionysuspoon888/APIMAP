@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity implements UserDataAdapter.O
                         //array that stores all the object in API Documentation
                         JSONArray jsonArray = new JSONArray(response);
 
-                        //Loop all the object of hit array
+                        //Loop all the object of the array
                         for (int i = 0; i < jsonArray.length(); i++) {
                             JSONObject userData = jsonArray.getJSONObject(i);
 
@@ -145,7 +145,7 @@ public class MainActivity extends AppCompatActivity implements UserDataAdapter.O
                     //array that stores all the object in API Documentation
                     JSONArray jsonArray = new JSONArray(response);
 
-                    //Loop all the object of hit array
+                    //Loop all the object of the array
                     for (int i = 0; i < jsonArray.length(); i++) {
                         JSONObject userData = jsonArray.getJSONObject(i);
 
@@ -211,7 +211,7 @@ public class MainActivity extends AppCompatActivity implements UserDataAdapter.O
                         Hawk.put(GlobalConstants.StoreUserData,response);
                           JSONArray jsonArray = new JSONArray(response);
 
-                        //Loop all the object of hit array
+                        //Loop all the object of the array
                         for (int i = 0; i < jsonArray.length(); i++) {
                             JSONObject userData = jsonArray.getJSONObject(i);
 
